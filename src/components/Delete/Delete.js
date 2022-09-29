@@ -22,8 +22,6 @@ const Delete = () => {
         })
     }
     return (
-        <div>
-        <h2>This is Added People {users.length}</h2>
         <div className='details-container'>
             {
                 users.map(user=> 
@@ -35,7 +33,6 @@ const Delete = () => {
                 )
             }
         </div>
-    </div>
     );
 };
 

@@ -1,0 +1,15 @@
+.home-container a{
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    color: beige;
+    border-radius: 10px;
+    width: 130px;
+    margin: 10px auto;
+    padding: 7px 4px;
+}
+.home-container a:hover{
+    background-color: orangered;
+    color:black ;
+    font-weight: 700;
+}

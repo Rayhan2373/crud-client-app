@@ -1,9 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div>
-            <h2> This Home page</h2>
+        <div className='home-container'>
+            <h3>You can : </h3>
+            <Link to='/form'>Add People</Link>
+            <Link to='/delete'>Delete People</Link>
+            <Link to='/update'>Update People</Link>
         </div>
     );
 };
