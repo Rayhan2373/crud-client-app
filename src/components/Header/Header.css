@@ -1,0 +1,12 @@
+.header-container{
+    background-color: black;
+    padding: 10px;
+}
+.header-container a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px ;
+}
+.header-container a:hover{
+    color: orangered;
+}

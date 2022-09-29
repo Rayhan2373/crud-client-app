@@ -1,0 +1,9 @@
+.details-container div{
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px auto;
+    padding: 3px 5px;
+}
+.details-container div p{
+    margin: 0px;
+}
